@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="3.958409 us"></ZoomEndTime>
+      <Cursor1Time time="11.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/LED" type="logic">
+      <obj_property name="ElementShortName">LED</obj_property>
+      <obj_property name="ObjectShortName">LED</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[26:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[26:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/pwm_cnt" type="array">
+      <obj_property name="ElementShortName">pwm_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pwm_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/pwm_inp" type="array">
+      <obj_property name="ElementShortName">pwm_inp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pwm_inp[3:0]</obj_property>
+   </wvobject>
+</wave_config>
